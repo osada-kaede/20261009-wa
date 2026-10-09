@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>配列</title>
+</head>
+<body>
+  <div id="app">
+  <div class="news">
+    <h1>お知らせ</h1>
+
+    <ul class="news-list">
+      <li v-for="fruit in fruits">
+        <a href="#">{{ fruit }}</a>
+      </li>
+    </ul>
+  </div>
+</div>
+  
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
